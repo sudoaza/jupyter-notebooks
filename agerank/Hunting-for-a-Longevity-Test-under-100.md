@@ -47,7 +47,7 @@ So far I hadn't checked on prices, I was suprised to find out that testing for v
 Finally we build a Gradient Boost model to predict age from the biomarkers measurement. We use 80% of the data as training and keep 20% to test on unknown data. I did not do any hyperparameter fine-tunning
 and kept it with the default parameters given by ChatGPT.
 
-This gives us a Mean Absolute Error of 9.4 and a significant Correlation of 0.815.
+This gives us a Mean Absolute Error of 9.4 (+-years) and a significant Correlation of 0.815.
 
 ![Age vs. Predicted Age for train and test data](images/y_vs_y_pred1.png)
 ![Predicting power of each biomarekr](images/predict_shap_2.png)
